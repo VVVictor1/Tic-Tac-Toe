@@ -1,0 +1,32 @@
+.btn-light{
+    width: 90px;
+    height: 80px;
+ margin-top: 5px;
+}
+body {
+    background-color:rgb(210, 205, 210);
+  }
+.info{
+    display: inline-block;
+    margin-left: 80px;
+    margin-right: 50px;
+}
+
+.goX::before{
+    content: "X";
+    font-size: 40px;
+  }
+  .shadowX::before{
+    content: "X";
+    font-size: 40px;
+    opacity: 0.2;
+  }
+  .goCircle::before{
+    content: "O";
+    font-size: 40px;
+  }
+  .shadowO::before{
+    content: "O";
+    font-size: 40px;
+    opacity: 0.2;
+  }
